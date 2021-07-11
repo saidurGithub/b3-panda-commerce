@@ -1,0 +1,113 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+}
+.container{
+    margin-bottom: 100px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    padding: 10px 20px;
+}
+
+.carousel{
+    background: #fceae8;
+    border-radius: 5px;
+}
+.carousel-item{
+    padding: 20px 20px;
+}
+.carousel-item .price{
+    color: #FF136F;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.buy-now{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 4px;
+}
+
+/* =================
+    START CATAGORIES SECTION
+==================== */
+
+.watch, .bag, .shoes {
+    padding: 20px;
+    border-radius: 8px;
+}
+.watch{
+    background: linear-gradient(to left, rgba(255, 166, 0, 0.753), rgb(224, 147, 4));
+}
+.bag{
+    background: linear-gradient(to left, rgb(194, 19, 188),  rgba(241, 61, 235, 0.89));
+}
+.shoes{
+    background: linear-gradient(to left, rgb(106, 28, 207),  rgba(121, 52, 231, 0.822));
+}
+
+/* =================
+    END CATAGORIES SECTION
+==================== */
+
+
+/* =================
+    START PRODUCT SECTION
+==================== */
+#backPack .buy-now{
+    color: #fff;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+/* =================
+    END PRODUCT SECTION
+==================== */
+
+
+/* =================
+    START SUBSCRIBE SECTION
+==================== */
+.orange-bg{
+    background: #fceae8;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 7px;
+}
+
+..orange-bg h3{
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.orange-bg h6{
+    color: gray;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.subscribe-input-box{
+    margin-top: 30px;
+}
+.subscribe-input-box .buy-now{
+    color: #fff;
+}
+
+/* =================
+    END SUBSCRIBE SECTION
+==================== */
+
+
+/* FOOTE SECTION */
+footer span{
+    font-weight: 600;
+}
